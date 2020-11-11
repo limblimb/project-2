@@ -1,0 +1,30 @@
+table {
+    border: 2px solid gray;
+    border-collapse: collapse;
+    background-color: #d5d9da;
+}
+
+th, td {
+    border: 1px solid gray;
+}
+
+.syntax {
+    width: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ececec;
+    text-align: left;
+}
+
+.margin {
+    color: red;
+}
+
+.example {
+    background-color: khaki;
+    height: 200px;
+    width: 200px;
+}
+
+#left_header {
+    width: 150px;
+}
