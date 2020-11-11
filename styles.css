@@ -1,11 +1,17 @@
 table {
     border: 2px solid gray;
     border-collapse: collapse;
-    background-color: #d5d9da;
+    padding: 0mm;
+    border: 0px;
+}
+
+th {
+    background-color: #eae1f8d9;
 }
 
 th, td {
-    border: 1px solid gray;
+    border: 2px solid #0b040cd9;
+    margin: 0px;
 }
 
 .syntax {
@@ -20,11 +26,48 @@ th, td {
 }
 
 .example {
-    background-color: khaki;
+    background-color: #410f92d9;
+    padding: 0px;
     height: 200px;
     width: 200px;
+    max-width: 200px;
+    vertical-align: top;
 }
 
 #left_header {
     width: 150px;
+}
+
+.example_cube {
+    background-color: #c49ccc;
+    height: 100px;
+    width: 100px;
+    border: 0;
+    padding: 0;
+}
+
+#all_sides {
+    margin: 50px;
+}
+
+#vertical_horizontal {
+    margin: 5% 50px;
+}
+
+#top_horizontal_bottom {
+    margin: 1em auto 2em;
+}
+
+#top_right_bottom_left {
+    margin: 2px 1em 0 auto;
+}
+
+.also {
+    height: auto;
+    width: 200px;
+    background-color: #ececec;
+}
+
+h2 {
+    text-align: center;
 }
