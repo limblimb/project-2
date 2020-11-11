@@ -27,9 +27,9 @@ th, td {
 
 .example {
     background-color: #410f92d9;
-    padding: 0px;
+    padding: 1px;
     height: 200px;
-    width: 200px;
+    width: 202px;
     max-width: 200px;
     vertical-align: top;
 }
@@ -47,11 +47,11 @@ th, td {
 }
 
 #all_sides {
-    margin: 50px;
+    margin: 55px;
 }
 
 #vertical_horizontal {
-    margin: 5% 50px;
+    margin: 5% 55px;
 }
 
 #top_horizontal_bottom {
